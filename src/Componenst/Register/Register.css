@@ -1,0 +1,26 @@
+.container ,div{
+    padding: 10px;
+}
+@media (max-width: 991px) {
+
+    .image{
+        width: 100vw;
+        height: 30vh;
+    }
+
+}
+@media (max-width: 575px) {
+
+    .image{
+        width: 100vw;
+        height: 30vh;
+        margin: 0 auto;
+        display: block;
+    }
+
+
+}
+.cc{
+    display: flex;
+    flex-direction: column;
+}
